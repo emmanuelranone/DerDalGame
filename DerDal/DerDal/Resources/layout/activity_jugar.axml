@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"	
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/fondo"
+	android:layout_below="@+id/linearTimer"
+	>
+	<TextView
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/txtCategoria"
+		android:textAlignment="center"
+		android:textSize="30dp"
+		android:background="#fff8df00"
+		android:textColor="#ff000000" />
+	<TextView
+		android:textAppearance="?android:attr/textAppearanceMedium"
+		android:layout_width="320dp"
+		android:layout_height="120dp"
+		android:minWidth="25px"
+		android:minHeight="25px"
+		android:layout_marginTop="20dp"
+		android:id="@+id/txtPregunta"
+		android:layout_marginBottom="20.0dp"
+		android:layout_gravity="center_vertical|center"
+		android:gravity="center_vertical|right"
+		android:singleLine="false"
+		android:maxLines="4"
+		android:textSize="20dp"
+		android:textStyle="bold"
+		android:textColor="#ff000000"
+		android:textAlignment="center"
+		android:background="#ff95edf0" />
+	<Button
+		android:layout_gravity="center_vertical|center"
+		android:layout_width="240dp"
+		android:layout_height="45dp"
+		android:layout_marginTop="5dp"
+		android:id="@+id/btn1"
+		android:layout_marginBottom="0.0dp"
+		android:textStyle="bold"
+		android:textColor="#ff000000"
+		android:background="#ff95edf0" />
+	<Button
+		android:layout_gravity="center_vertical|center"
+		android:layout_width="240dp"
+		android:layout_height="45dp"
+		android:background="#ff95edf0"
+		android:layout_marginTop="15dp"
+		android:id="@+id/btn2"
+		android:textColor="#ff000000"
+		android:textStyle="bold" />
+	<Button
+		android:layout_gravity="center_vertical|center"
+		android:layout_width="240dp"
+		android:layout_height="45dp"
+		android:background="#ff95edf0"
+		android:layout_marginTop="15dp"
+		android:id="@+id/btn3"
+		android:textColor="#ff000000"
+		android:textStyle="bold" />
+	<Button
+		android:layout_gravity="center_vertical|center"
+		android:layout_width="240dp"
+		android:layout_height="45dp"
+		android:background="#ff95edf0"
+		android:layout_marginTop="15dp"
+		android:id="@+id/btn4"
+		android:textColor="#ff000000"
+		android:textStyle="bold" />
+	<Button
+		android:layout_marginTop="10dp"
+		android:layout_gravity="center_vertical|center"
+		android:layout_width="330dp"
+		android:layout_height="80dp"
+		android:id="@+id/btnSiguiente"
+		android:text="PROXIMA PREGUNTA"
+		android:textStyle="bold"
+		android:textSize="24dp"
+		android:background="@drawable/fondoet"
+		android:textColor="#ff0d15e9" />
+	<io.github.krtkush.lineartimer.LinearTimerView
+		android:id="@+id/timer1"
+		android:layout_marginTop="10dp"
+		android:layout_height="77dp"
+		android:layout_width="77dp"						
+		android:layout_gravity="center_vertical|center"
+		app:radius="20dp"
+		app:strokeWidth="6dp"
+		app:startingPoint="270"
+		app:preFillPoint="0" />         
+           
+</LinearLayout>

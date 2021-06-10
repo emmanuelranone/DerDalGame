@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">DerDal</string>
+    <string name="action_settings">Settings</string>
+    <string name="txtNombre">¿Cómo te llamás?</string>
+    <string name="btnJugar">JUGAR</string>
+  <string name="btnPosi">POSICIONES</string>
+  <string name="btnSalir">SALIR</string>
+</resources>

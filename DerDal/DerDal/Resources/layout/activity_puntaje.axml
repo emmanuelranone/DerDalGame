@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/fondo"
+	android:minWidth="25px"
+	android:minHeight="25px">
+	<TextView
+		android:text="TABLA DE POSICIONES"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/textView1"
+		android:textAlignment="center"
+		android:textIsSelectable="false"
+		android:textSize="30dp"
+		android:textStyle="bold"
+		android:textColor="#ffffffff"
+		android:background="#fffb0d0d" />
+	<ListView
+		android:layout_marginTop="25dp"
+		android:layout_width="320dp"
+		android:layout_height="475dp"
+		android:layout_gravity="center_vertical|center"
+		android:id="@+id/listView1"
+		android:background="@drawable/fondoet"		
+		android:textAlignment="center" />
+	<Button
+		android:text="VOLVER"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="25dp"
+		android:background="#ffe434d9"
+		android:id="@+id/btnVolver"
+		android:textStyle="bold"
+		android:textSize="24dp" />
+
+</LinearLayout>

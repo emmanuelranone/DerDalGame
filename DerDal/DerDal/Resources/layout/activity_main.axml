@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@drawable/fondo">
+	<ImageView
+		android:id="@+id/imgHome"
+		android:background="@drawable/quest2"
+		android:layout_marginLeft="90dp"
+		android:layout_marginTop="30dp"
+		android:layout_height="200dp"
+		android:layout_width="200dp"		
+	/>
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="30dp"
+		android:id="@+id/txtNombre"
+		android:hint="@string/txtNombre"
+		android:textAlignment="center"
+		android:textSize="36dp"
+		android:backgroundTint="@android:color/transparent"
+		android:singleLine="true"
+		android:textStyle="bold"
+		android:maxLength="8" />
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btnJugar"
+		android:layout_marginTop="30dp"
+		android:textSize="25dp"
+		android:text="@string/btnJugar"
+		android:background="#ffe434d9" 
+	/>
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:textSize="25dp"
+		android:id="@+id/btnPosi"
+		android:background="#fffae100"
+		android:text="@string/btnPosi" 
+	/>
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="5dp"
+		android:textSize="25dp"
+		android:id="@+id/btnSalir"
+		android:background="#ff5d5454"
+		android:text="@string/btnSalir" 
+	/>
+</LinearLayout>
